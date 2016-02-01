@@ -19,7 +19,8 @@ export default function dsv ( options = {} ) {
 
 			const definition = rcu.parse( code );
 			const module = es6( definition, {
-				preserveExtensions: true
+				preserveExtensions: true,
+				sourceMap: true
 			});
 
 			return module;
