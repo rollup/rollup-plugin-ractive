@@ -1,12 +1,4 @@
-# rollup-plugin-dsv changelog
-
-## 1.1.0
-
-* Support `options.processRow`
-
-## 1.0.1
-
-* Include correct files in package
+# rollup-plugin-ractive changelog
 
 ## 1.0.0
 
