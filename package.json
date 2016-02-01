@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-ractive",
   "description": "Compile Ractive components",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Rich Harris",
   "repository": "https://github.com/rollup/rollup-plugin-ractive",
   "license": "MIT",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-es2015-rollup": "^1.1.1",
+    "babel-register": "^6.4.3",
     "eslint": "^1.10.3",
     "mocha": "^2.4.5",
     "ractive": "^0.7.3",
@@ -30,8 +31,8 @@
     "rollup-plugin-babel": "^2.3.9"
   },
   "dependencies": {
-    "rcu": "^0.6.0",
-    "rcu-builders": "^0.4.0",
+    "rcu": "^0.6.1",
+    "rcu-builders": "^0.4.1",
     "rollup-pluginutils": "^1.3.1"
   }
 }
