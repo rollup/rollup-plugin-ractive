@@ -1,5 +1,9 @@
 # rollup-plugin-ractive changelog
 
+## 1.2.0
+
+* Update dependencies
+
 ## 1.1.2
 
 * Add missing dependency
