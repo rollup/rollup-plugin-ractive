@@ -1,6 +1,6 @@
-import * as assert from 'assert';
-import { rollup } from 'rollup';
-import ractive from '..';
+const assert = require( 'assert' );
+const { rollup } = require( 'rollup' );
+const ractive = require( '..' );
 
 process.chdir( __dirname );
 
