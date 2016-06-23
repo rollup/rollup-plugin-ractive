@@ -12,6 +12,8 @@ export default function dsv ( options = {} ) {
 	const extensions = options.extensions || [ '.html' ];
 
 	return {
+		name: 'ractive',
+
 		transform ( code, id ) {
 			if ( !filter( id ) ) return null;
 
