@@ -1,5 +1,9 @@
 # rollup-plugin-ractive changelog
 
+## 2.0.0-edge
+
+* Update rcu
+
 ## 1.2.1
 
 * Return a `name`
