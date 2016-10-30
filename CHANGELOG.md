@@ -1,8 +1,8 @@
 # rollup-plugin-ractive changelog
 
-## 2.0.0-edge
+## 2.0.0
 
-* Update rcu
+* Update rcu, to support Ractive 0.8
 
 ## 1.2.1
 
