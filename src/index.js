@@ -19,7 +19,7 @@ export default function dsv ( options = {} ) {
 
 			if ( !~extensions.indexOf( extname( id ) ) ) return null;
 
-			const definition = rcu.parse( code );
+			const definition = rcu.parse( code, options.parseOptions );
 			const module = es6( definition, {
 				preserveExtensions: true,
 				sourceMap: true
