@@ -1,15 +1,15 @@
 import { extname } from 'path';
 import Ractive from 'ractive';
 import rcu from 'rcu';
-import { es6 } from 'rcu-builders';
+import * as builders from 'rcu-builders';
 import { createFilter } from 'rollup-pluginutils';
 
 rcu.init( Ractive );
 
 export default function dsv ( options = {} ) {
 	const filter = createFilter( options.include, options.exclude );
-
 	const extensions = options.extensions || [ '.html' ];
+	const format = options.format || 'es6';
 
 	return {
 		name: 'ractive',
@@ -19,8 +19,8 @@ export default function dsv ( options = {} ) {
 
 			if ( !~extensions.indexOf( extname( id ) ) ) return null;
 
-			const definition = rcu.parse( code );
-			const module = es6( definition, {
+			const definition = rcu.parse( code, options.parseOptions );
+			const module = builders[ format ]( definition, {
 				preserveExtensions: true,
 				sourceMap: true
 			});
