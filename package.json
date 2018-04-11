@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-ractive",
   "description": "Compile Ractive components",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": "Rich Harris",
   "repository": "rollup/rollup-plugin-ractive",
   "license": "MIT",
