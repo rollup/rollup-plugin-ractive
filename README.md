@@ -39,7 +39,7 @@ rollup({
 }).then(...)
 ```
 
-See the (demo project)[https://github.com/Rich-Harris/ractive-rollup-demo] to see how it's used.
+See the [demo project](https://github.com/Rich-Harris/ractive-rollup-demo) to see how it's used.
 
 ## License
 
