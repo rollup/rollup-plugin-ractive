@@ -1,3 +1,7 @@
+# Inactive
+
+Ractive as a project is essentially dead, and this plugin is no longer maintained nor supported.
+
 # rollup-plugin-ractive
 
 Precompile Ractive components.
