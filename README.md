@@ -30,7 +30,7 @@ rollup({
 
       // You can restrict which files are compiled
       // using `include` and `exclude`
-      include: 'src/components/**.html',
+      include: 'src/components/**/**.html',
       
       // Output format. When doing server-side rendering, you might need to set this
       // to "cjs" if you import other JS files in your components.
@@ -42,6 +42,8 @@ rollup({
   ]
 }).then(...)
 ```
+
+See the [demo project](https://github.com/Rich-Harris/ractive-rollup-demo) to see how it's used.
 
 ## License
 
